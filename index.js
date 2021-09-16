@@ -7,7 +7,7 @@ const cors = require('cors');
 const Conn = require('./models/conn/conn');
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://listtaskfront.herokuapp.com/',
   optionsSuccessStatus: 200,
 }
 
